@@ -2,6 +2,10 @@
 
 Visual Studio plugin that lets you generate a single file from a bunch of other files, all neatly foldable in the Solution Explorer. 
 
+### Download
+
+You can download the .VSIX here: [RePartial Visual Studio Extension](https://github.com/kornelijepetak/RePartial/blob/master/artifacts/RePartial.vsix?raw=true).
+
 ## Instructions
 
 **Step 1.** Open a file you want to generate from other partial files, for example myLib.js.
@@ -10,7 +14,11 @@ Visual Studio plugin that lets you generate a single file from a bunch of other 
 
 **Step 3.** Save the file.
 
-At this point, RePartial will take the original content of your file and store it as myLib.js.original. It will also add a myLib.js.partial file. This configuration file contains all the parts from which myLib.js is generated.
+At this point, RePartial will take the original content (if any) and store it as myLib.js.original. It will also add a myLib.js.partial file. This configuration file contains all the parts from which myLib.js is generated.
+
+![partial-content](https://raw.githubusercontent.com/kornelijepetak/RePartial/master/artifacts/partial-content.jpg)
+
+![solution-explorer](https://raw.githubusercontent.com/kornelijepetak/RePartial/master/artifacts/solution-explorer.jpg)
 
 ## Operations
 
