@@ -5,8 +5,8 @@
 		<DisplayName>RePartial</DisplayName>
 		<Description xml:space="preserve">Partial VS</Description>
 		<License>license.txt</License>
-		<Icon>stitch.ico</Icon>
-		<PreviewImage>stitch-preview.png</PreviewImage>
+		<Icon>repartial.ico</Icon>
+		<PreviewImage>preview.png</PreviewImage>
 		<Tags>partial; merge; files</Tags>
 	</Metadata>
 	<Installation>
